@@ -860,6 +860,12 @@ img, iframe, table {
         </ul>
     </details>
     <p><a href="#top">Back to Top</a></p>
+    <script>
+document.querySelectorAll("a[target='_blank']").forEach(a => {
+    a.setAttribute("rel", "noopener noreferrer");
+});
+</script>
+
 </body>
 
 </html>
